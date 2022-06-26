@@ -1,0 +1,65 @@
+.flexcontainer {
+    display: flex;
+    margin: auto;
+    width: 97%;
+    background-color: #679cff;
+    align-items: center;
+    justify-content: center;
+}
+
+.blok1 {
+    width: 50%;
+    height: 50vh;
+    margin: 10px;
+    float: left;
+    background-color: aqua;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.flexcontainer1 {
+    display: flex;
+    margin: auto;
+    height: 70%;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#p1 {
+    width: 45%;
+}
+
+#p2 {
+    width: 45%;
+
+}
+
+#p3 {
+    width: 90%;
+    justify-content: center;
+}
+
+.blok2 {
+    width: 40%;
+    height: 50vh;
+    margin: 10px;
+    float: right;
+    background-color: rgb(83, 216, 198);
+}
+
+.flexcontainer2 {
+    display: flex;
+    margin: auto;
+    width: 97%;
+    height: 20vh;
+    clear: both;
+    background-color: rgb(186, 136, 252);
+    align-items: center;
+    justify-content: space-around;
+
+}
